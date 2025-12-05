@@ -1,8 +1,8 @@
-Simple Web Scraper
+--Simple Web Scraper--
 
 A simple Python script to scrape all paragraph (`<p>`) text from any website and save it into a CSV file.
 
-Features
+--Features
 
 - Scrapes all `<p>` tags from a given website URL.
 
@@ -12,7 +12,7 @@ Features
 
 - Handles input disruptions gracefully (useful for running in CMD/Terminal).
 
-Requirements
+--Requirements
 
 - Python 3.x  
 
@@ -20,12 +20,13 @@ Requirements
 
 - `beautifulsoup4` library  
 
-You can install the required libraries using pip:
+--You can install the required libraries using pip:
 
-bash
+--bash
 pip install requests beautifulsoup4
 
-Usage
+--Usage
+
 1.Run the script:
   python scraper.py
   
@@ -35,14 +36,15 @@ Usage
 
 4.The script will scrape all paragraphs and save them into the specified CSV file.
 
-Example:
+--Example:
+
 Enter the website URL to scrape: https://en.wikipedia.org/wiki/Artificial_intelligence
 
 Enter a CSV file name: ai_paragraphs.csv
 
 Success! Data stored in 'ai_paragraphs.csv'
 
-Notes
+--Notes
 
 Ensure the URL is valid and accessible.
 
