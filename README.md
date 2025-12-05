@@ -28,6 +28,7 @@ pip install requests beautifulsoup4
 --Usage
 
 1.Run the script:
+  
   python scraper.py
   
 2.Enter the website URL when prompted.
