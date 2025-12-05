@@ -22,7 +22,8 @@ A simple Python script to scrape all paragraph (`<p>`) text from any website and
 
 --You can install the required libraries using pip:
 
---bash
+-bash
+
 pip install requests beautifulsoup4
 
 --Usage
@@ -50,5 +51,6 @@ Success! Data stored in 'ai_paragraphs.csv'
 Ensure the URL is valid and accessible.
 
 The CSV file will be created in the same directory as the script.
+
 
 Only <p> tag text is extracted; other content (headings, links, tables) is ignored.
